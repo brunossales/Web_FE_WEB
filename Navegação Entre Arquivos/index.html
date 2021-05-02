@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqui é o index</title>
+</head>
+<body>
+    <h1>Pagina index</h1>
+    <nav>
+        <ul>
+            <li><a href="contact.html" title="Ir para o contact" target="_blank">Para ir ao contact</a></li>
+            <li><a href="index.html" title="Abrir a mesma pagina" target="_blank"> Aqui e a mesma pagina que essa</a></li>
+            <li><a href="files/images.html" title="Ir para o IMG dentro de files" target="_blank">Entrar em images</a></li>
+        </ul>
+    </nav>
+    <table>
+        <caption>Produzidos X vendidos da loja</caption>
+        <colgroup>
+            <col span="2" style="background-color: aqua;">
+            <col span="3" style="background-color: brown;"> <!--span serve para dizer quantas colunas as cores irao pegar-->
+        </colgroup>
+        <thead>
+            <tr> <!--  Linha -->
+                <th rowspan="2"></th> <!--  Ocupa 2 Linha --><!-- Coluna/Cabeçalho -->
+                <th colspan="2" scope="colgroup">Afonso</th>
+                <th colspan="2" scope="colgroup">antonia</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th> 
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+       <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td>50</td> <!-- Coluna sem ser em cabeçalho -->
+                <td>30</td>
+                <td>50</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th>Baldes</th>
+                <td colspan="2"></td>
+                <td>500</td>
+                <td>10</td>
+            </tr>
+       </tbody>
+        <tfoot>
+            <td> Total: </td>
+            <td> 19 anos</td> <!-- rodapé -->
+        </tfoot>
+    </table>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae non quod ex quaerat debitis ad similique nisi laborum voluptatum. Nisi, tenetur adipisci optio laboriosam dolores minus pariatur ducimus assumenda? 
+    </p>
+</body>
+</html>
