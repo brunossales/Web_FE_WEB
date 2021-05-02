@@ -37,10 +37,11 @@ radio {
   font-size: 1.2rem;
 }
 .grupo {
-  border-style: ridge;
-  border-radius: 10px;
+  border-style: solid;
+  border-radius: 70px 10px 70px 10px;
   border-width: 5px;
-  border-color: rgb(228, 189, 81);
+  border-color: rgba(3, 215, 253, 0.205);
+  background-color: #873e23;
 }
 .botao {
   color: rgb(20, 9, 9);
