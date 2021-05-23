@@ -6,4 +6,4 @@
 
 ## Veja um pouco de como ficou:
 
-![Exemplificação](/files/exemplificação.png)
+![GitHub Logo](/files/exemplificação.png)
