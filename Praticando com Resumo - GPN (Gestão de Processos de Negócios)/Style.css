@@ -1,0 +1,30 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: #4ecdc4;
+}
+.write {
+  background-color: #1a535c;
+  font-weight: 600;
+  width: 900px;
+  word-wrap: break-word;
+  margin-left: 17%;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 10px;
+  border-width: 5px;
+  box-shadow: 5px 5px 5px chartreuse;
+  color: aliceblue;
+}
+h1 {
+  font-weight: 700;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+img {
+  margin-top: 1.5%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(2, 45, 109);
+}
