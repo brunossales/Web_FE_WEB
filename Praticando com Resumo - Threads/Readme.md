@@ -9,3 +9,7 @@
 ## Veja como ficou, segue abaixo
 
 ![GitHub logo](https://github.com/brunossales/Web_FE_WEB/blob/main/Praticando%20com%20Resumo%20-%20Threads/files/resultForCode.gif)
+
+<p align="center">
+    <img width="500" src="https://github.com/brunossales/Web_FE_WEB/blob/main/Praticando%20com%20Resumo%20-%20Threads/files/resultForCode.gif">
+</p>
