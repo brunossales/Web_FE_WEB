@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="files/favicon-300x300.png" type="image/x-icon">
+    <title>Thread</title>
+</head>
+<body>
+    <div class="title">
+        <h1>
+             Thread
+        </h1>
+    </div>
+    
+    <div class="write">
+    <ul class="write1">
+        <li>
+            <h3>
+                Primeiramente:
+            </h3>
+            <ul>
+                <li>Quando o processo tem uma única thread ele só executa uma única linha de fluxo de execução</li>
+                <li>Quando tem mais de uma, ele é processo de multi-Thread, quando por exemplo você tem um editor de texto, onde você tem um thread para o proceso de entrada de texto, mudança de fonnte e etc, cada coisa é um novo tread naquele processo</li>
+                <li>Threads é fluxo de execução independente dentro do processo</li>
+            </ul>
+        </li>
+            <li>
+                <h3>
+                    Por que fazer uso de um mini processo dentro de um processo?
+                </h3>
+               <ol>
+                   <li>
+                        Em muitas aplicações ocorrem multiplas atividades ao mesmo tempo
+                   </li>
+                   <li>
+                       O modelo de programação se torna mais simples, se a atividade por decomposto em multiplos threads sequenciais que executam quase em paralelo
+                   </li>
+               </ol>
+            </li>
+       </ul>
+       <hr>
+       <samp>Vale ressaltar que, os threads não resulta em ganho de desempenho quando todos eles são CPU-bound </samp>
+       <hr>
+       <ul class="write2">
+           <li>
+                <h3>
+                    CPU-Bound:
+                </h3>
+           </li>
+           <ul>
+               <li>
+                   Como rederização de vídeo, que usa muito do processador. É um processo de <strong>CPU-Bound</strong>
+               </li>
+               <li>
+                   E usa pouca entrada e saída
+               </li>
+           </ul>
+           <li>
+               <h3>
+                   E/S - Bound:
+               </h3>
+               <ul>
+                   <li>
+                    Quando tem pouco uso de CPU, quando ela fica ociosa.
+                   </li>
+                   <li>
+                       Você tem muito atraso por Entrada e Saída.
+                   </li>
+               </ul>
+           </li>
+       </ul>
+       <hr>
+
+       <ul class="write3">
+           <li>
+               <h3>
+                   Máquina de estado dos Threads:
+               </h3>
+               <ul>
+                   <li>
+                       <strong>Em execução: </strong>o thread está ativo no processador.
+                   </li>
+                   <li>
+                       <strong>Bloqueado: </strong>o thread está aguardando por algum evento que o desbloqueie.
+                   </li>
+                   <li>
+                       <strong>Pronto: </strong>está escalonado para executar, e logo se tornará ativo, apenas a espera de um período no processador.
+                   </li>
+               </ul>
+           </li>
+       </ul>
+       <hr>
+       
+           <ul class="write4">
+                <li>
+                    Se um Thread começa a executar, nenhum outro thread  naquele processo executará  sequer uma vez, a menos que o thread, voluntariamente, abra mão da CPU.
+       
+                </li>
+                <li>
+                    A menos que o thread ceda voluntariamente a vez para o outro, o escalonador nunca terá oportunidade de fazê-lo.
+                </li>
+                <li>
+                    Pro SO, é como se o processo fosse uma única thread, e quando da problema ele bloqueia todo o processo.
+                </li>
+           </ul>
+        
+       <hr>
+        <marquee width="700px" scrollamount="5"  direction="right"  ><img src="files/aaa.png" alt="Imagem 1" width="500px"></marquee>
+<!-- quantidade de rolagem - scrollamount -->
+        <hr>
+        <ul class="write5">
+            <li>
+                <h3>
+                    A tabela de threads do núcleo contem:
+                </h3>
+                <ul>
+                    <li>Registradores</li>
+                    <li>Estado</li>
+                    <li>Informação da thread</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <samp>
+            Lembre-se que agora essas informações não são mais armazenadas dentro do processo, elas são armazenados pelo <strong>Kernel</strong>, em um espaço reservado pra isso.
+        </samp>
+    </div>
+    </body>
+</html>

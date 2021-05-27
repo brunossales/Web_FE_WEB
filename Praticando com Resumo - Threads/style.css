@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(files/gif.gif);
+  background-size: 40%;
+}
+.write1,
+.write2,
+.write3,
+.write4,
+.write5 {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  padding-left: 30px;
+  font-weight: 500;
+  font-family: serif;
+  padding-top: 8px !important;
+  background-color: rgb(208, 215, 221);
+}
+samp {
+  width: 500px;
+  margin: 20px auto;
+  color: white;
+  margin-left: 10%;
+  font-weight: 1000 !important;
+  font-size: 15px;
+  padding-right: 40px;
+}
+
+.write {
+  width: 900px;
+  margin: 20px auto;
+  background-color: black;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(0, 0, 129);
+  padding: 20px;
+  margin-top: 20px;
+}
+h1 {
+  margin: 20px auto;
+  color: aliceblue;
+  margin-left: 43%;
+  margin-top: 10px;
+  font-size: 50px;
+  border-style: double;
+  border-color: aliceblue;
+  width: 160px;
+  background-color: black;
+  padding: 8px;
+}
+marquee {
+  width: 900px;
+}
