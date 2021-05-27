@@ -4,7 +4,7 @@
 
 - ## Dividi meu código em vários blocos para melhorar a compreenção
 
-- ## Usei a tag hr , assim como também aprendi ela aqui
+- ## Usei a tag hr, assim como também aprendi ela aqui
 
 ## Veja como ficou, segue abaixo
 
