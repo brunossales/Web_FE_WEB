@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: block;
+  font-family: cursive;
+  background-image: url(files/gif.gif);
+  background-size: 20%;
+}
+.title,
+h1,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif !important;
+  color: rgb(0, 0, 0);
+}
+.write,
+.write,
+.write2,
+.write3,
+.write4,
+.write5 {
+  color: rgb(3, 3, 3);
+  padding: 20px;
+  background-color: #e79b16;
+  border-radius: 10px 100px 10px 100px;
+  margin: 20px auto;
+  width: 700px;
+}
+hr {
+  width: 700px;
+}
+h1 {
+  margin-left: 32%;
+  border-style: solid;
+  border-width: 5px;
+  margin-right: 32%;
+  padding: 5px;
+  background-color: rgb(240, 237, 192);
+  color: rgb(39, 37, 37);
+  border-color: rgb(240, 198, 143);
+  border-radius: 5px;
+}
+h1:hover {
+  background-color: aqua;
+}
+ul :hover {
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+}
