@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalonamento de Processos</title>
+</head>
+<body>
+    <div class="title">
+        <h1>
+            <strong>
+                Escalonamento de Processos
+            </strong>
+            
+        </h1>
+    </div>
+    <div class="write">
+        <ul>
+            <li>
+                <h3>
+                    Escalonamento
+                </h3>
+            </li>
+          <ul>
+              <li>
+                  Esta situação ocorre quando dois processos estão no mesmo estado de pronto, quando dois processos competem pela CPU ao mesmo tempo.
+
+              </li>
+              <li>
+                  A parte do SO que faz a escolha de qual processo deve ser executado é chamado de 
+                  <strong>Escalonaor</strong>, e o algoritmo que é usado para escolher o processo a ser executado é chamado de <strong>algoritmo de Escalonamento.</strong>
+              </li>
+          </ul>  
+        </ul>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="write2">
+        <ul>
+            <li>
+                <h3>
+                    <strong>
+                        Quando escalonar?
+                    </strong>
+                </h3>
+            </li>
+            <ul>
+                <li>
+                   Quando se cria um novo processo
+                </li>
+                <li>
+                    No término de um processo
+                </li>
+                <li>
+                    Quando um processo é bloqueado
+                </li>
+                <li>
+                    Quando um processo é executado algum evento de entrada e saida(i/o)
+                </li>
+            </ul>
+        </ul>
+
+    </div>
+    <hr>
+    <hr>
+
+    <div class="write3">
+        <ul>
+            <li>
+                <strong>
+                    <h3>
+                        O algoritmo de escalonamento pode ser:
+                    </h3>
+                </strong>
+                <ul>
+                    <li>
+                        Não preemptivo:
+                        <ul>
+                            <li>
+                                O processo executa até o fim, sem ser interrompido
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Preemptivo:
+                        <ul>
+                            <li>
+                                O processo executa fatias de tempo (quantum) determinado pelo sistema operacional. Ele tem só alguns mili-segundos.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+    <hr>
+    <hr>
+
+    <div class="write4">
+        <ul>
+            <li>
+                <strong>
+                    <h3>
+                        Três principais tipos de ambientes:
+                    </h3>
+                </strong>
+            </li>
+            <ul>
+                <li>
+                    <h4>
+                        Lote:
+                    </h4>
+                    <ul>
+                        <li>
+                            Sistemas de processamento de transação em banco, de folha de pagamento da UFC, grande trabalho a ser executado em sequencia.
+                        </li>
+                        <li>
+                            Em sistemas em Lote, não há terminal com usuários esperando impacientemente por uma resposta rápida. Consequentemente, algoritmos com longo intervalo de tempo (ou que executam até terminar) para cada processo em geral são aceitáveis
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>
+                        Interativo:
+                    </h4>
+                    <ul>
+                        <li>
+                            Exemplo como, computador, smartphone, onde o usuário interage e quer uma respostas imediata.
+                        </li>
+                        <li>
+                            Em um ambiente com usuários interativos, a preempção é essencial para evitar que um processo se aposse da CPU e, com isso, negue serviço aos outros
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>
+                        Tempo real
+                    </h4>
+                    <ul>
+                        <li>
+                            Geralmente tem uma programação mais especifica e restritiva. Exemplo é por exemplo, o sistema da solda da linha de montagem de uma montadora, se ele demorar pra botar a solda o carro ja se moveu e ele perdeu o tempo, o resultado do processo seria invalido
+                        </li>
+                        <li>
+                            Em sistemas com restrição de tempo real, a preempção é desnecessária algumas vezes, pois os processos sabem que não podem executar por longos períodos de tempo e em geral fazem seus trabalhos e bloqueiam rapidamente
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+
+    </div>
+    
+</body>
+</html>
