@@ -11,5 +11,5 @@
 ## Veja como ficou no Gif a seguir
 
 <p align="center">
-    <img width="800" heigth="800" src="https://github.com/brunossales/Web_FE_WEB/blob/main/Praticando%20com%20Resumo%20-%20Escalonamento%20de%20Processos/files/result.gif">
+    <img width="800" heigth="600" src="https://github.com/brunossales/Web_FE_WEB/blob/main/Praticando%20com%20Resumo%20-%20Escalonamento%20de%20Processos/files/result.gif">
 </p>
