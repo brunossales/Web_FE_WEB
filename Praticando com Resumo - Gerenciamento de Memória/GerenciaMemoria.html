@@ -1,1 +1,102 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciamento de Memória</title>
+</head>
+<body>
+  <div class="title"><h1>Gerenciamento de Memória</h1></div>
+  <div class="conteiner">
+    <div class="line1">
+      <ul>
+        <li>
+          O Gerente de Memória é um componente do Sistema Operacional que aloca memória principal para os processos, e gerencia a hierarquia de memória 
+          <ul>
+            <li>
+              Caches, RAM, e Disco 
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="line2">
+      <ol>
+        <h3><strong>Tarefas do gerente de memória:</strong></h3>
+        <li>Garante isolamento mútuo entre processos (proteção)</li>
+        <li>Mantém o registro das áreas de memória em uso (e memória  livre) </li>
+        <li>Aloca memória RAM para novos processos</li>
+        <li>Faz o swapping transparente entre memória principal e disco</li>
+        <li>Mantém o mapeamento de memória virtual para memória física</li>
+        <li>Implementa a política de alocação de memória para os  processos </li>
+      </ol>
+    </div>
+    <div class="line3">
+      <ul>
+        <h3><strong>Monoprogramação</strong></h3>
+        <li>O esquema mais simples possível de gerenciamento de memória</li>
+        <li>em-se somente um processo na memória durante toda a sua execução</li>
+        <li>O usuário carrega um programa do disco para a memória, podendo  este fazer uso de toda a máquina </li>
+        <ul><li>Se a memória for insuficiente, o programa simplesmente tem sua execução  rejeitada </li></ul>
+        <li>Quando o sistema é organizado dessa maneira, somente um processo pode  estar em execução por vez.</li>
+        <li>Processador, memória e periféricos exclusivamente dedicados a execução de um  único programa  
+        </li>
+      </ul>
+      <article>Basicamente a tarefa do SO nos sistemas monoprogramação é transferir o controle de um programa, para outro programa</article>
+      <h3>Características:</h3>
+      <ul>
+        <li>Simples de implementação </li>
+        <li>Não existe preocupação com compartilhamento de recursos </li>
+      </ul>
+      <h3>Desvantagens: </h3>
+      <ul>
+        <li>Processador ocioso enquanto programa aguarda algum evento</li>
+        <li>Memória subutilizada (não preenchida completamente, pois tem apenas um  programa) </li>
+        <li>Exemplo: MS-DOS (1981)</li>
+      </ul>
+      <h3>Funcionamento: </h3>
+      <marquee behavior="alternate" scrollamount="10"><img src="src/img/img1.png" alt="Imagem1" width="50%"></marquee>
+    </div>
+    <div class="line4">
+      <ul>
+        <h3><strong>Multiprogramação</strong></h3>
+        <li>Grandes computadores frequentemente provêm serviços interativos para vários  usuários simultaneamente. 
+        </li>
+        <ul>
+          <li>Assim, a habilidade de ter-se mais de um processo na memória em um mesmo instante de  tempo é imprescindível por razões de desempenho. 
+          </li>
+        </ul>
+        <li>Uma outra razão para ter-se a multiprogramação, é que muitos processos  gastam uma substancial fração do seu tempo para completar E/S em disco</li>
+        <ul><li>É comum para um processo permanecer em um loop lendo um bloco de dados de um arquivo  em disco e então realizando alguma computação sobre o conteúdo dos blocos lidos.</li>
+        <li>Se for gasto 100ms para ler um bloco e a computação necessária na CPU usa apenas 20ms,  sem a multiprogramação, a CPU estará desocupada esperando pelo acesso ao disco durante  80% do tempo</li></ul>
+      </ul>
+      <h3><strong> <ul>
+        <li>SO mantém vários processos na memória simultaneamente  e a CPU é dividida entre eles </li>
+        <li>Parte deles fica em uma fila de processos no disco  aguardando alocação na memória principal 
+        </li>
+        <li>SO seleciona e começa a executar um dos jobs na memória</li>
+    </strong>
+    </h3>
+    <ul>
+      <li>Se o job pode ter de aguardar que alguma</li>
+      <ol>
+        <li>SO passa para um novo job e o executa </li>
+        <li>Se job tem que aguardar, CPU seleciona outro job e assim por diante </li>
+        <li>CPU não ficará ociosa a maioria do tempo </li>
+      </ol>
+    </ul>
+    <h3><strong>Os Sistemas com Multiprogramação fornecem um ambiente em que  os diversos recursos do sistema são utilizados eficientemente </strong></h3>
+    <h3>Características: </h3>
+    <ol>
+      <li>Vários programas na memória principal concorrendo pela utilização da CPU</li>
+      <li>CPU totalmente dedicada aos vários programas </li>
+      <li>Menos desperdício na utilização da CPU</li>
+      <li>Melhor uso da memória principal</li>
+    </ol>
+    <h3>Funcionamento: </h3>
+      <marquee behavior="alternate" scrollamount="10"><img src="src/img/img2.png" alt="Imagem2" width="50%"></marquee>
+    </div>
+  </div>
+</body>
+</html>
