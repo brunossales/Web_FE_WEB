@@ -18,21 +18,21 @@
 </p>
 
 <p align="left">
-  <a href="https://github.com/brunossales/Web_FE_WEB" alt="Gmail">
+  <a href="https://github.com/brunossales/Web_FE_WEB" alt="RepoSize">
 
   <img height=24he src="https://img.shields.io/github/repo-size/brunossales/Web_FE_WEB" /> </a>
 
-  <a href="#" alt="Linkedin">
+  <a href="#" alt="Languagens">
 
   <img height=24he src="https://img.shields.io/github/languages/count/brunossales/Web_FE_WEB" /> </a>
 
-  <a href="#" alt="WhatsApp">
-  
-  <img height=25he src="https://img.shields.io/github/stars/brunossales/Web_FE_WEB" /> </a>
+  <a href="#" alt="Fork">
 
-  <a href="#" alt="Facebook">
+  <img height=25he src="https://img.shields.io/github/stars/brunossales/Web_FE_WEB?style=social" /> </a>
 
-  <img height=25he src="https://img.shields.io/github/forks/brunossales/Web_FE_WEB" /> 
+  <a href="#" alt="Watch">
+
+  <img height=25he src="https://img.shields.io/github/watchers/brunossales/Web_FE_WEB?style=social" /> 
 
   </a>
 
